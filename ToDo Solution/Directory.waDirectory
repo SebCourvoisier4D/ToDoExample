@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><directory>
+	<group ID="01000000000000000000000000000000" name="Admin">
+		<include user="test@test.com" ID="DEBC39636F821E428E62BFFAF18A2C35"/>
+		<include user="admin" ID="5AE86CD08198F64EA3FFE79E3563A748"/>
+	</group>
+	<user ID="DEBC39636F821E428E62BFFAF18A2C35" name="test@test.com" fullName="test" password="b790da3caffcbe445f97e81f999f4042"/>
+	<user ID="5AE86CD08198F64EA3FFE79E3563A748" name="admin" fullName="admin" password="003b744708c16733d1eb3371bec208fd"/>
+</directory>

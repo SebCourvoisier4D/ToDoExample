@@ -1,0 +1,90 @@
+﻿
+
+.backgroud-page{
+  background:  #5bc0de;
+  
+}
+
+
+#content-box{
+margin-top:50px;
+padding: 0px;
+}
+
+.sc-login-logo-sub{
+  font: 15px 'arial';
+  color: aliceblue;
+  text-align: center;
+ 
+}
+
+.panel-title{
+  text-align: center;
+}
+
+.panel-body{
+  padding-top:30px
+}
+
+#sc-userName{
+  margin-bottom: 25px
+}
+
+.input-height{
+  height: 40px !important;
+}
+
+#sc-pwd{
+  margin-bottom: 25px
+}
+
+.form-group{
+  margin-top:10px
+}
+
+#sc-forgetPwd{
+  text-align: center; 
+  font-size: 80%; 
+  position: relative; 
+  top:10px
+}
+
+.alert-invalidLogin{
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  
+  display: none;
+}
+
+.alert-invalidInput{
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+@media (max-width: 768px){
+
+    #content-box {
+    margin-top: 0px;
+    }
+    
+    .panel-title {
+    font-size: 14px;
+    }
+
+    .sc-login-logo-sub{
+      font-size: 12px;
+    }
+}
+
+#footer {
+    color: #6d6d6d;
+    font-size: 12px;
+    text-align: center;
+}
+#footer p {
+    margin-bottom: 0;
+}
+#footer a {
+    color: inherit;
+}

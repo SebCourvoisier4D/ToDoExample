@@ -1,0 +1,82 @@
+﻿.task-type{
+ 
+    font-size: xx-small!important;
+    font-weight: bolder!important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.padding-list-group {
+	padding-top : 30px;
+	padding-bottom : 30px;
+}
+.actions{
+	float : right ;
+}
+
+.previous {
+	width : 90px;
+
+}
+
+.next {
+	width : 90px;
+
+}
+
+
+.back{
+	background-color: white!important;
+	border-color: white!important;
+	padding: 10px;
+}
+.back-task{
+    background-color: white!important;
+    border-radius: 6px!important;
+}
+.active {
+	background-color: #f0ad4e!important;
+}
+.left{
+	float : left;
+	margin-left : 37px;
+}
+.right{
+	float : right;
+	margin-right : 37px;
+}
+
+.well{
+	height: 415px!important;
+	
+}
+
+.form-horizontal{
+	padding-bottom : 10px;
+}
+
+.search{
+	padding: 20px;
+}
+
+.deleted-font{
+	
+	font-weight: normal;
+    color: darkgrey!important;
+    text-decoration: line-through;
+	
+}
+
+.done-font{
+	
+	font-weight: normal;
+    color: darkgrey!important;
+}
+
+.todo-font{
+	
+	font-weight: bold;
+	color: black!important;
+}

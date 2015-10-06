@@ -1,0 +1,118 @@
+{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Task": {
+				"panelColor": "#C3D69B",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 432,
+						"Y": 107
+					}
+				}
+			},
+			"Attachment": {
+				"panelColor": "#76923C",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 25,
+						"Y": 20
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Attachment",
+			"className": "Attachment",
+			"collectionName": "AttachmentCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "file",
+					"kind": "storage",
+					"scope": "public",
+					"type": "image"
+				},
+				{
+					"name": "task",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Task",
+					"path": "Task"
+				}
+			]
+		},
+		{
+			"name": "Task",
+			"className": "Task",
+			"collectionName": "TaskCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "completed",
+					"kind": "storage",
+					"scope": "public",
+					"type": "bool"
+				},
+				{
+					"name": "deleted",
+					"kind": "storage",
+					"scope": "public",
+					"type": "bool",
+					"matchColumn": "archived"
+				},
+				{
+					"name": "attachments",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "AttachmentCollection",
+					"reversePath": true,
+					"path": "task"
+				}
+			]
+		}
+	],
+	"type": []
+}
