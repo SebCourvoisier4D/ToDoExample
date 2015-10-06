@@ -9,8 +9,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 432,
-						"Y": 107
+						"X": 24,
+						"Y": 267
 					}
 				}
 			},
@@ -99,9 +99,9 @@
 				{
 					"name": "deleted",
 					"kind": "storage",
+					"matchColumn": "archived",
 					"scope": "public",
-					"type": "bool",
-					"matchColumn": "archived"
+					"type": "bool"
 				},
 				{
 					"name": "attachments",
@@ -113,6 +113,5 @@
 				}
 			]
 		}
-	],
-	"type": []
+	]
 }
