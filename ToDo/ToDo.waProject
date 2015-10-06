@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-  <file path="./Model.waModel">
+  <file path="./backend/model.waModel">
     <tag name="catalog"/>
   </file>
-  <file path="./Settings.waSettings">
+  <file path="./backend/settings.waSettings">
     <tag name="settings"/>
   </file>
-  <file path="./Permissions.waPerm">
+  <file path="./backend/permissions.waPerm">
     <tag name="permissions"/>
   </file>
-  <folder path="./WebFolder/">
+  <folder path="./web/">
     <tag name="webFolder"/>
   </folder>
-  <folder path="./DataFolder/">
+  <folder path="./backend/data/">
     <tag name="dataFolder"/>
   </folder>
   <folder path="./Widgets/">
